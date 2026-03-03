@@ -7,9 +7,7 @@ class CityDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const AppBar(
-        title: Text('Détail de la ville'),
-      ),
+      appBar: const AppBar(title: Text('Détail de la ville')),
       // TODO: À compléter par Membre 3
       body: const Center(
         child: Text('Détail ville - En cours de développement'),

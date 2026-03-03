@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../providers/weather_provider.dart';
 import '../../providers/theme_provider.dart';
 
 // TODO: À compléter par Membre 3 (widgets jauge et tableau)
@@ -23,7 +22,6 @@ class _MainScreenState extends State<MainScreen> {
           icon: const Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
         ),
-        // Bouton toggle thème clair/sombre
         actions: [
           IconButton(
             icon: Icon(
@@ -35,7 +33,6 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
-      // TODO: À compléter par Membre 2 et 3
       body: const Center(
         child: Text('Écran principal - En cours de développement'),
       ),

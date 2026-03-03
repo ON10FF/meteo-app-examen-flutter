@@ -39,8 +39,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       // Définition de toutes les routes de navigation
       routes: {
-        '/': (context) => const HomeScreen(),         // Écran d'accueil
-        '/main': (context) => const MainScreen(),     // Écran principal
+        '/': (context) => const HomeScreen(), // Écran d'accueil
+        '/main': (context) => const MainScreen(), // Écran principal
         '/detail': (context) => const CityDetailScreen(), // Détail ville
       },
     );
