@@ -21,6 +21,12 @@ dependencies:
   # Sérialisation JSON
   json_annotation: ^4.9.0
   provider: ^6.1.5+1
+  # Cartes
+  #google_maps_flutter: ^2.5.3
+
+  # Animations
+  flutter_animate: ^4.3.0
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:
