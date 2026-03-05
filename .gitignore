@@ -1,3 +1,5 @@
+#clef api
+.env
 # Miscellaneous
 *.class
 *.log

@@ -1,24 +1,15 @@
-// Constantes de l'API OpenWeatherMap
-class ApiConstants {
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-  // URL de base de l'API
+class ApiConstants {
   static const String baseUrl = 'https://api.openweathermap.org/data/2.5';
 
-  // Clé API (ne jamais partager publiquement !)
-  static const String apiKey = 'MACLEFAPI';
+  // Clé chargée depuis .env
+  static String get apiKey => dotenv.env['WEATHER_API_KEY'] ?? '';
 
-  // Unité de température (metric = Celsius)
   static const String units = 'metric';
-
-  // Langue des descriptions météo
   static const String lang = 'fr';
 
-  // Les 5 villes surveillées par l'application
   static const List<String> cities = [
-    'Dakar',
-    'Mbour',
-    'Kaffrine',
-    'Kaolack',
-    'Thies',
+    'Dakar', 'Mbour', 'Kaffrine', 'Kaolack', 'Thies',
   ];
 }
